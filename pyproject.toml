@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "typode"
+version = "1.0.0"
+authors = [
+    { name="Matt Rendina", email="rendina.8@osu.edu" },
+]
+description = "none"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: unlicense",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pygame",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/rendinam/typode"
+
