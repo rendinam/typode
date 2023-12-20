@@ -18,4 +18,6 @@ $ pip install .
 $ typode
 ```
 
+![image](screenshot.png)
+
 https://xkcd.com/license.html
