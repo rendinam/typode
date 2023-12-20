@@ -29,7 +29,7 @@ where = ["src"]
 mypkg = ["src/typode/image_data/*.png"]
 
 [project.scripts]
-typode = "typode:main"
+typode = "typode.typode:main"
 
 [project.urls]
 Homepage = "https://github.com/rendinam/typode"
