@@ -1,6 +1,5 @@
-#!/usr/bin/env python
-
 import os
+import importlib.resources as ipl_res
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "1"
 import pygame
 
@@ -28,7 +27,8 @@ class Planet(pygame.sprite.Sprite):
 
 
 def main():
-    imgdir = "images"
+    imgdir = os.path.join(ipl_res.files('typode'), 'image_data')
+    print(imgdir)
     pygame.init()
     pygame.display.set_caption('typode')
     window = pygame.display.set_mode((1200, 1200))

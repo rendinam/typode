@@ -21,6 +21,15 @@ dependencies = [
     "pygame",
 ]
 
+[tool.setuptools.packages.find]
+#where = ["src/typode/image_data"]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["src/typode/image_data/*.png"]
+
+[project.scripts]
+typode = "typode:main"
 
 [project.urls]
 Homepage = "https://github.com/rendinam/typode"
